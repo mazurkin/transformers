@@ -15,6 +15,8 @@ CONDA_ENV_HIST_FILE = environment-hist.yaml
 
 HUGGINFACE_CACHE_FOLDER = ${HOME}/.cache/huggingface
 
+.DEFAULT_GOAL = notebook
+
 .PHONY: notebook
 notebook:
 	@conda run --no-capture-output --live-stream --name $(CONDA_ENV_NAME) \
