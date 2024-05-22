@@ -1,0 +1,13 @@
+name: transformers
+channels:
+  - defaults
+dependencies:
+  - python=3.10.12
+  - jupyter
+  - pandas
+  - transformers
+  - pillow
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
