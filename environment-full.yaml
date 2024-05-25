@@ -8,11 +8,14 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - absl-py=2.1.0=py310h06a4308_0
+  - accelerate=0.30.1=pyhd8ed1ab_0
   - aiohttp=3.9.5=py310h5eee18b_0
   - aiosignal=1.2.0=pyhd3eb1b0_0
   - anyio=4.2.0=py310h06a4308_0
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py310h7f8727e_0
+  - arrow=1.2.3=py310h06a4308_1
   - asttokens=2.0.5=pyhd3eb1b0_0
   - async-lru=2.0.4=py310h06a4308_0
   - async-timeout=4.0.3=py310h06a4308_0
@@ -32,6 +35,7 @@ dependencies:
   - aws-sdk-cpp=1.11.267=h51dfee4_8
   - babel=2.11.0=py310h06a4308_0
   - beautifulsoup4=4.12.2=py310h06a4308_0
+  - binaryornot=0.4.4=pyhd3eb1b0_1
   - blas=1.0=mkl
   - bleach=4.1.0=pyhd3eb1b0_0
   - bottleneck=1.3.7=py310ha9d4c09_0
@@ -39,10 +43,13 @@ dependencies:
   - bzip2=1.0.8=h5eee18b_6
   - c-ares=1.28.1=hd590300_0
   - ca-certificates=2024.3.11=h06a4308_0
-  - certifi=2024.2.2=pyhd8ed1ab_0
+  - certifi=2024.2.2=py310h06a4308_0
   - cffi=1.16.0=py310h5eee18b_1
+  - chardet=4.0.0=py310h06a4308_1003
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - click=8.1.7=py310h06a4308_0
   - comm=0.2.1=py310h06a4308_0
+  - cookiecutter=2.6.0=py310h06a4308_0
   - cuda-cudart=11.8.89=0
   - cuda-cupti=11.8.87=0
   - cuda-libraries=11.8.0=0
@@ -57,6 +64,7 @@ dependencies:
   - decorator=5.1.1=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - dill=0.3.6=py310h06a4308_0
+  - evaluate=0.4.0=py310h06a4308_0
   - exceptiongroup=1.2.0=py310h06a4308_0
   - executing=0.8.3=pyhd3eb1b0_0
   - expat=2.6.2=h6a678d5_0
@@ -85,6 +93,7 @@ dependencies:
   - ipywidgets=8.1.2=py310h06a4308_0
   - jedi=0.18.1=py310h06a4308_1
   - jinja2=3.1.3=py310h06a4308_0
+  - joblib=1.4.0=py310h06a4308_0
   - jpeg=9e=h5eee18b_1
   - json5=0.9.6=pyhd3eb1b0_0
   - jsonschema=4.19.2=py310h06a4308_0
@@ -168,9 +177,12 @@ dependencies:
   - libxml2=2.10.4=hfdd30dd_2
   - libzlib=1.2.13=hd590300_5
   - llvm-openmp=14.0.6=h9e868ea_0
+  - loralib=0.1.2=pyhd8ed1ab_0
   - lz4-c=1.9.4=h6a678d5_1
+  - markdown-it-py=2.2.0=py310h06a4308_1
   - markupsafe=2.1.3=py310h5eee18b_0
   - matplotlib-inline=0.1.6=py310h06a4308_0
+  - mdurl=0.1.0=py310h06a4308_0
   - mistune=2.0.4=py310h06a4308_0
   - mkl=2023.1.0=h213fc3f_46344
   - mkl-service=2.4.0=py310h5eee18b_1
@@ -189,6 +201,7 @@ dependencies:
   - nest-asyncio=1.6.0=py310h06a4308_0
   - nettle=3.7.3=hbbd107a_1
   - networkx=3.1=py310h06a4308_0
+  - nltk=3.8.1=py310h06a4308_0
   - notebook=7.0.8=py310h06a4308_0
   - notebook-shim=0.2.3=py310h06a4308_0
   - numexpr=2.8.7=py310h85018f9_0
@@ -204,6 +217,7 @@ dependencies:
   - pandocfilters=1.5.0=pyhd3eb1b0_0
   - parso=0.8.3=pyhd3eb1b0_0
   - pcre2=10.42=hebb0a14_1
+  - peft=0.11.1=pyhd8ed1ab_0
   - pexpect=4.8.0=pyhd3eb1b0_3
   - pillow=10.3.0=py310h5eee18b_0
   - pip=24.0=py310h06a4308_0
@@ -227,6 +241,7 @@ dependencies:
   - python-dateutil=2.9.0post0=py310h06a4308_0
   - python-fastjsonschema=2.16.2=py310h06a4308_0
   - python-json-logger=2.0.7=py310h06a4308_0
+  - python-slugify=5.0.2=pyhd3eb1b0_0
   - python-tzdata=2023.3=pyhd3eb1b0_0
   - python-xxhash=2.0.2=py310h5eee18b_1
   - python_abi=3.10=2_cp310
@@ -248,6 +263,8 @@ dependencies:
   - responses=0.13.3=pyhd3eb1b0_0
   - rfc3339-validator=0.1.4=py310h06a4308_0
   - rfc3986-validator=0.1.1=py310h06a4308_0
+  - rich=13.3.5=py310h06a4308_0
+  - rouge-score=0.1.2=pyhd8ed1ab_0
   - rpds-py=0.10.6=py310hb02cf49_0
   - s2n=1.4.13=he19d79f_0
   - safetensors=0.4.2=py310ha89cbab_0
@@ -263,6 +280,7 @@ dependencies:
   - sympy=1.12=py310h06a4308_0
   - tbb=2021.8.0=hdb19cb5_0
   - terminado=0.17.1=py310h06a4308_0
+  - text-unidecode=1.3=pyhd3eb1b0_0
   - tinycss2=1.2.1=py310h06a4308_0
   - tk=8.6.14=h39e8969_0
   - tokenizers=0.15.1=py310h22610ee_0
@@ -278,6 +296,7 @@ dependencies:
   - typing_extensions=4.11.0=py310h06a4308_0
   - tzdata=2024a=h04d1e81_0
   - ucx=1.15.0=ha691c75_8
+  - unidecode=1.2.0=pyhd3eb1b0_0
   - urllib3=2.2.1=py310h06a4308_0
   - wcwidth=0.2.5=pyhd3eb1b0_0
   - webencodings=0.5.1=py310h06a4308_1
@@ -292,5 +311,3 @@ dependencies:
   - zipp=3.17.0=py310h06a4308_0
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.5=hc292b87_2
-  - pip:
-      - accelerate==0.30.1

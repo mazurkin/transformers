@@ -13,3 +13,7 @@ dependencies:
   - torchvision
   - protobuf
   - datasets
+  - evaluate
+  - loralib
+  - peft
+  - conda-forge::rouge-score
