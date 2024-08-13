@@ -36,13 +36,15 @@ accelerate = "0.33.0"
 evaluate = "0.4.2"
 rouge-score = "0.1.2"
 datasets = "2.20.0"
-soundfile = "0.12.1"
-librosa = "0.10.2"
 trl = "0.9.6"
 
 [tool.poetry.group.fix.dependencies]
 filelock = "3.15.4"
 msgpack = "1.0.8"
+
+[tool.poetry.group.sound.dependencies]
+soundfile = "0.12.1"
+librosa = "0.10.2"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "7.1.1"
